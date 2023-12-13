@@ -1,12 +1,12 @@
-# Byte-compiled / optimized / DLL files
+# 바이트 컴파일 / 최적화 / DLL 파일
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# C 확장자 파일
 *.so
 
-# Distribution / packaging
+# 배포 / 패키징 관련 파일
 .Python
 build/
 develop-eggs/
@@ -26,17 +26,15 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+# PyInstaller 관련 파일
 *.manifest
 *.spec
 
-# Installer logs
+# 설치 로그 파일
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# 유닛 테스트 / 커버리지 보고서
 htmlcov/
 .tox/
 .nox/
@@ -51,75 +49,62 @@ coverage.xml
 .pytest_cache/
 cover/
 
-# Translations
+# 번역 파일
 *.mo
 *.pot
 
-# Django stuff:
+# Django 관련 파일:
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
+# Flask 관련 파일:
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# Scrapy 관련 파일:
 .scrapy
 
-# Sphinx documentation
+# Sphinx 문서 관련 파일
 docs/_build/
 
-# PyBuilder
+# PyBuilder 관련 파일
 .pybuilder/
 target/
 
-# Jupyter Notebook
+# Jupyter Notebook 관련 파일
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# IPython
+# IPython 관련 파일
 profile_default/
 ipython_config.py
 
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
+# pyenv 설정 파일
+.python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+# pipenv 설정 파일
+Pipfile.lock
 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
+# poetry 설정 파일
+poetry.lock
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
+# pdm 설정 파일
+pdm.lock
 .pdm.toml
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+# PEP 582; 예: github.com/David-OConnor/pyflow 및 github.com/pdm-project/pdm 사용
 __pypackages__/
 
-# Celery stuff
+# Celery 관련 파일
 celerybeat-schedule
 celerybeat.pid
 
-# SageMath parsed files
+# SageMath 파싱 파일
 *.sage.py
 
-# Environments
+# 환경 설정 파일
 .env
 .venv
 env/
@@ -128,33 +113,75 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
+# Spyder 프로젝트 설정 파일
 .spyderproject
 .spyproject
 
-# Rope project settings
+# Rope 프로젝트 설정 파일
 .ropeproject
 
-# mkdocs documentation
+# mkdocs 문서 관련 파일
 /site
 
-# mypy
+# mypy 캐시 파일
 .mypy_cache/
 .dmypy.json
 dmypy.json
 
-# Pyre type checker
+# Pyre 타입 체커 관련 파일
 .pyre/
 
-# pytype static type analyzer
+# pytype 정적 타입 분석기 관련 파일
 .pytype/
 
-# Cython debug symbols
+# Cython 디버그 심볼
 cython_debug/
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+# Poetry 로컬 설정 파일
+poetry.toml
+
+# ruff 캐시 파일
+.ruff_cache/
+
+# LSP 설정 파일
+pyrightconfig.json
+
+# Windows 관련 파일
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+*.stackdump
+
+# 폴더 설정 파일
+[Dd]esktop.ini
+
+# 파일 공유시 사용되는 휴지통
+$RECYCLE.BIN/
+
+# Windows 설치 파일
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows 바로가기 파일
+*.lnk
+
+# TensorFlow / Keras 모델 체크포인트와 저장된 모델
+*.h5
+*.ckpt
+model_checkpoints/
+
+# TensorBoard 로그 파일
+logs/
+
+# 대규모 데이터 파일
+*.csv
+*.xlsx
+*.json
+data/

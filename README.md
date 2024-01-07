@@ -1,15 +1,15 @@
 # Deeply
 Deeply : Playlist Generation Model
-Deeply는 Playlist 생성형 모델입니다.
+Deeply는 Playlist 생성형 모델 Prototype 입니다.
 <br>
 ## 0. 개요
 - Deeply는 사용자의 자연어를 입력 받아, 노래의 제목을 출력해주는 Seq2Seq 모델입니다.
 - 이는 사용자 정보와 컨텐츠 데이터가 부족한 경우를 극복하기 위한 아이디어 입니다.
-- 예시는 아래와 같습니다. <br>
-  플레이리스트 제목 : '혼자만의 시간을 갖는다는 것.' <br>
-  곡 제목 : ['기억의 습작', 'Let it be', '기다리다', 'parade', ...] <br>
-  가   수 : [  '전람회' ,   'Beatles' ,  'YOUNHA',  'YOUNHA', ... ] <br>
-  장   르 : [...] <br>
+- 데이터의 형태는 아래와 같습니다. <br>
+  **플레이리스트 제목 : '혼자만의 시간을 갖는다는 것.'** <br>
+  **곡 제목 : ['기억의 습작', 'Let it be', '기다리다', 'parade', ...]** <br>
+  **가   수 : [  '전람회' ,   'Beatles' ,  'YOUNHA',  'YOUNHA', ... ]** <br>
+  **장   르 : [...]** <br>
 
 ## 1. 데이터 특성 및 전처리
 -  플레이리스 데이터 자체만으로, Source 언어로서 자연어를, Target 언어로서 메타데이터로 나누어 학습을 진행.

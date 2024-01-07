@@ -27,4 +27,7 @@ Deeply는 Playlist 생성형 모델 Prototype 입니다.
 
 ## 3. 서비스 기능 구현
 - 백엔드는 Flask를 사용 모델의 출력 값을, 식별자의 값으로 매핑하여 노래 제목의 값으로 변경해서 출력
-- 프론트는 React를 사용, Youtube API를 이용해 해당 곡 정보를 가져와 서비스할 수 있도록 작성
+- 프론트는 React를 사용, Youtube API를 이용해 해당 곡 정보를 가져와 서비스할 수 있도록 작성<br>
+
+https://github.com/manusuall/Deeply/assets/124496957/c5af0200-64f2-4f96-a689-e410e901d04f
+

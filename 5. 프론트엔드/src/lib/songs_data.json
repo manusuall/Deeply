@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Summer Go Loco (Feat. GRAY)",
+        "artists": [
+            "로꼬"
+        ],
+        "album": "Summer Go Loco",
+        "release_date": "2017.08.18",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/-tdq58fAgaawQcx744mZUP67379plUJcWvzPSyfRy305ZmNcYii54WboN9OBa4I-cEdzu7u5yW4nSFlBQA=w120-h120-l90-rj",
+        "duration": {
+            "label": "",
+            "totalSeconds": 0
+        },
+        "isExplicit": false
+    },
+    {
+        "title": "한 여름의 크리스마스 (With You)",
+        "artists": [
+            "Red Velvet (레드벨벳)"
+        ],
+        "album": "Summer Magic - Summer Mini Album",
+        "release_date": "2018.08.06",
+        "thumbnailUrl": "https://lh3.googleusercontent.com/gGimU9zT_z8oiRGWvcjQnS4_56PST_BGvIuzRB3NwlmgrOroRMMOMiR_KC2VL3WDuJCq9FNBk3wEfaGc=w120-h120-l90-rj",
+        "duration": {
+            "label": "",
+            "totalSeconds": 0
+        },
+        "isExplicit": false
+    },
+    {
+        "title": "summer",
+        "artists": [
+            "keshi"
+        ],
+        "album": "skeletons",
+        "release_date": "2019.07.16",
+        "thumbnailUrl": "NaN",
+        "duration": {
+            "label": "",
+            "totalSeconds": 0
+        },
+        "isExplicit": false
+    },
+    {
+        "title": "Keep It Gold",
+        "artists": [
+            "Surfaces"
+        ],
+        "album": "Horizons",
+        "release_date": "2020.02.28",
+        "thumbnailUrl": "NaN",
+        "duration": {
+            "label": "",
+            "totalSeconds": 0
+        },
+        "isExplicit": false
+    },
+    {
+        "title": "Cruel Summer",
+        "artists": [
+            "Taylor Swift"
+        ],
+        "album": "Lover",
+        "release_date": "2019.08.23",
+        "thumbnailUrl": "NaN",
+        "duration": {
+            "label": "",
+            "totalSeconds": 0
+        },
+        "isExplicit": false
+    }
+]

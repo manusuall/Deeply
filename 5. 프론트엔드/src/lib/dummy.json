@@ -1,0 +1,38 @@
+{
+        "playlists": [
+                {
+                    "id": "ck8q0q9qg0000h1l7q8q0q9qg",
+                    "playlist": "비오는 날에 듣기 좋은 플레이리스트",
+                    "thumbnail": "https://musicmeta-phinf.pstatic.net/album/004/086/4086574.jpg?type=r480Fll&v=20200225120000",
+                    "items": [
+                        {
+                            "title": "비가오는날엔",
+                            "artist": "비스트",
+                            "thumbnail": "https://musicmeta-phinf.pstatic.net/album/003/962/3962920.jpg?type=r480Fll&v=20191203120000"
+                        },
+                        {
+                            "title": "비가와",
+                            "artist": "폴킴",
+                            "thumbnail": "https://musicmeta-phinf.pstatic.net/album/004/086/4086574.jpg?type=r480Fll&v=20200225120000"
+                        },
+                        {
+                            "title": "비가 내리는 날에는",
+                            "artist": "윤하",
+                            "thumbnail": "https://musicmeta-phinf.pstatic.net/album/003/962/3962920.jpg?type=r480Fll&v=20191203120000"
+                        }
+                    ]
+                },
+                {
+                    "id": "ck8q0q9qg001d2h1l7f8q0x9qg",
+                    "playlist": "편안한 피아노 음악",
+                    "thumbnail": "https://musicmeta-phinf.pstatic.net/album/004/086/4086574.jpg?type=r480Fll&v=20200225120000",
+                    "items": []
+                },
+                {
+                    "id": "ck8q0q9qg002h3h1l7qdslk912",
+                    "playlist": "피아노 카페",
+                    "thumbnail": "https://musicmeta-phinf.pstatic.net/album/004/086/4086574.jpg?type=r480Fll&v=20200225120000",
+                    "items": []
+                }
+        ]
+}
